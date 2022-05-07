@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Motivator Extension",
+    "description": "A web extension that motivates you to complete your task hence, preventing procrastination",
+    "version": "0.1",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "page.html"
+    }
+}
